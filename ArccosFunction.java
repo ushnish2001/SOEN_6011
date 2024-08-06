@@ -10,9 +10,9 @@ public class ArccosFunction extends JFrame {
 
     private JTextField inputField;
     private JTextArea resultArea;
-
+    private ArccosCalculator calculator = new ArccosCalculator();
     public ArccosFunction() {
-        // Create the frame 
+        // Create the frame
         setTitle("Arccosine Calculator");
         setSize(600, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
